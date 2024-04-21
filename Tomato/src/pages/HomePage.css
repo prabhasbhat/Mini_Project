@@ -1,0 +1,194 @@
+/* Tab1 specific styles */
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg'); /* Replace 'your-background-image-url.jpg' with the actual image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.bold {
+  
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 95%;
+  color: #ffffff;
+  line-height: 96/45 = 2.375rem;
+  text-shadow: #000;
+
+}
+
+/* Add this section at the end of your existing CSS */
+a, a:hover {
+  text-decoration: none;
+}
+
+.PP {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  line-height: 45px;
+  width: 60%;
+  margin: 30px auto;
+  color: #ffffff;
+}
+
+/* Inside HomePage.css */
+/* Inside HomePage.css */
+.logo {
+  width: 60px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100%; /* Add rounded corners to make it circular */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+
+  /* Add hover effect for interaction */
+  cursor: pointer;
+}
+
+/* Add hover effect for interaction */
+.logo:hover {
+  transform: scale(1.1);
+}
+
+
+.h2 {
+  color: #000;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  /* border-radius: 1px; */
+  margin-right: 10px;
+  width: 1200px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.page-content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.menu-item {
+  display: flex;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  color: #333;
+}
+
+.item-details p {
+  color: #666;
+  size: 100px;
+}
+
+.item-details p:last-child {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-btn:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Inside HomePage.css */
+.reservation-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%; /* Change to 100% for responsiveness */
+}
+
+.reservation-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+  .search-bar {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 40px;
+    height: 30px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .btn,
+  .reservation-btn {
+    width: 90%;
+  }
+}

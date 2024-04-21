@@ -1,0 +1,20 @@
+/* RestaurantSplashScreen.css */
+.restaurant-splash-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff; /* Add your desired background color */
+  }
+  
+  .restaurant-logo img {
+    max-width: 150px; /* Adjust the maximum width of the restaurant logo */
+  }
+  
+  .restaurant-name h1 {
+    font-size: 24px; /* Adjust the font size of the restaurant name */
+    margin-top: 20px;
+    color: #333; /* Add your desired text color */
+  }
+  

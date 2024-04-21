@@ -1,0 +1,26 @@
+/* src/components/SideMenu.css */
+
+/* Customize the styles as needed */
+
+ion-menu {
+    width: 250px;
+  }
+  
+  ion-toolbar {
+    background-color: #3880ff;
+    color: #fff;
+  }
+  
+  ion-list {
+    padding: 20px;
+  }
+  
+  ion-item {
+    color: #333;
+  }
+  
+  ion-item:hover {
+    background-color: #e0e0e0;
+    color: #000;
+  }
+  
